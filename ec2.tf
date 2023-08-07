@@ -7,8 +7,8 @@ provider "aws" {
 
 # Security Groups
 
-resource "aws_security_group" "Kubernetes" {
-  name        = "Kubernetes"
+resource "aws_security_group" "Insurance" {
+  name        = "Insurance"
   description = "Allow inbound traffic"
 
   ingress {
